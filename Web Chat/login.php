@@ -2,9 +2,8 @@
     session_start();
     include 'dbh.php';
     
-
-    $uname=$_POST['uname'];
-    $pass=$_POST['pass'];
+    $uname=$_POST['uname']; //insert user name
+    $pass=$_POST['pass']; // insert pw
 
     $sql="SELECT*FROM signup WHERE username='$uname' AND
     password='$pass'";
