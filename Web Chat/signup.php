@@ -1,6 +1,6 @@
 <?php
     include 'dbh.php';
-    $uname = $_POST['uname'];
+    $uname = $_POST['uname']; // asign user name
     $email = $_POST['Email'];
     $pass = $_POST['Password'];
 
