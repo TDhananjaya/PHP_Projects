@@ -2,8 +2,14 @@
     session_start();
     include 'dbh.php';
     
+<<<<<<< HEAD
     $uname=$_POST['uname']; //insert user name
     $pass=$_POST['pass']; // insert pw
+=======
+
+    $uname=$_POST['uname'];
+    $pass=$_POST['pass'];
+>>>>>>> WebChat
 
     $sql="SELECT*FROM signup WHERE username='$uname' AND
     password='$pass'";
@@ -18,4 +24,8 @@
         header("Location:home.php");
     }
 
+<<<<<<< HEAD
 ?>
+=======
+?>
+>>>>>>> WebChat
