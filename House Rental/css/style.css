@@ -25,11 +25,66 @@ body{
     clear: both;
 }
 
+/*css for Header*/
+
 .header{
     background-color: darkblue;
     color: white;
 }
+
+
+/*css for menu*/
+.menu ul{
+    list-style-type: none;
+}
+.menu ul a {
+    color: darkblue;
+    text-decoration: none;
+    padding: 1%;
+}
+.menu ul a:hover{
+    background-color: darkblue;
+    color: white;
+}
+.menu ul a li{
+    display: inline;
+}
+
+/*css for main body*/
+.main{
+    margin: 1% 0;
+}
+.main h3{
+    color: purple;
+}
+.houses{
+    width: 20%;
+    border: 1px solid gray;
+    float: left;
+    padding: 10px;
+}
+.houses img{
+    width: 100%;
+    margin: 1%;
+   
+}
+.houses:hover{
+    box-shadow: 0 0 13px silver;
+    padding: 15px;
+}
+
+/*css for footer*/
 .footer{
     background-color: darkblue;
     color: white;
+}
+.footer p{
+    text-align: center;
+}
+
+.footer p a{
+    color: lightblue;
+}
+.footer p a:hover{
+    text-decoration: none;
 }
