@@ -23,8 +23,11 @@ body{
     display: block;
     height: 0;
     clear: both;
+   
 }
-
+.clearfix{
+    padding-left: 50px;
+}
 /*css for Header*/
 
 .header{
@@ -63,6 +66,8 @@ body{
     float: left;
     padding: 10px;
     text-align: center;
+    margin: 15px;
+
 }
 .houses img{
     width: 100%;
