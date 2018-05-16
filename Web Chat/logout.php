@@ -2,6 +2,6 @@
 session_start();
 Session_destroy();
 
-header("Location:index.php"); //calling index file
+header("Location:index.php");
 
 ?>
