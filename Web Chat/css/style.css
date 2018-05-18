@@ -1,0 +1,90 @@
+body{
+    background-color: skyblue;
+    margin: 0;
+    padding: 0;
+    background: url(3.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+
+}   
+
+#main{
+    height: 420px;
+    background:#000;
+    margin-top: 100px;
+    border-radius: 40px;
+    width: 400px;
+    margin: 15px auto;
+    padding-top: 50px;
+    color: #fff;
+    top: 50%;
+    left:50%;
+    box-sizing: border-box;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    padding: 70px 30px;
+
+}
+.logo{
+ height: 100px;
+ width:150px;
+ border-radius: 50%;
+ position: absolute; 
+ top: -50px;
+ left: 32%;
+}
+
+#info{
+    margin-left: 20px;
+    padding-top: 1px;
+}
+
+h2{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+
+.main input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.main p{
+    margin:0;
+    padding: 0;
+    font-weight: bold;
+    margin-top: -18px;
+    
+}
+.main input[type="text"], input[type="password"]{
+
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+ button{
+
+width: 100%;
+    padding: 5px;
+    box-sizing: border-box;  
+  border: none;
+  outline:none;
+background: #fb2525;
+color: #fff;
+font-size:18px; 
+border-radius: 20px;
+ }
+  button[type="submit"]:hover{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+  }
