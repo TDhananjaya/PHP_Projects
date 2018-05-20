@@ -10,7 +10,7 @@ include 'dbh.php';
 </head>
 <body>
     <div id="main">
-        <h1 style="background-color:#6495ed; color:white;"><?php
+      <h1 style="background-color:#6495ed; color:white;"><?php
         echo $_SESSION['uname']?>--Online</h1>
         <div class="output">
             <?php $sql = "SELECT * FROM posts";
@@ -19,10 +19,12 @@ include 'dbh.php';
 
             if($result->num_rows > 0){
                 //output data of each row
-                for ($i = 0; $i < $rows; $i++) {
-            
-                    $row = $result->fetch_array(MYSQLI_ASSOC);
-                    $result->data_seek($i);
+                //for ($i = 0; $i < $rows; $i++) {
+                while($row = $result->fetch_array(MYSQLI_ASSOC)){
+
+                   
+                //$result->data_seek($i);
+                    
 echo<<<_END
 <div>
     $row[name]:
