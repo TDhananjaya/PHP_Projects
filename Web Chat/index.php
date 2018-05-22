@@ -5,7 +5,7 @@
     </head>
     <body>
         <div id="main" class="main">
-            <img src="4.png" class="logo">
+            <img src="images/4.png" class="logo">
             <div id="info" class="main1">
 
                 <h2 >Login Here</h2>
