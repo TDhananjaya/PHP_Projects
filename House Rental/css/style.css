@@ -79,13 +79,19 @@ body{
     color: darkblue; 
     padding: 1%;
 }
-.houses .house-added{
+.house-price{
+    font-size: 120%;
+    color: goldenrod;
+    padding: 1%;
+}
+
+.house-added{
     font-weight:lighter;
     font-size: 90%;
     color: darkblue; 
     padding: 1%;
 }
-.houses .house-location{
+.house-location{
     font-weight:lighter;
     font-size: 90%;
     color: darkblue; 
@@ -108,10 +114,21 @@ body{
     background-color: darkblue;
 }
 .book-house img{
-    width: 30%;
+    width: 40%;
     float: left;
     padding: 2% 2% 2% 0;
     margin: 2% 2% 2% 0;
+}
+.book-house h3{
+    text-align: center;
+    margin-bottom: 2%;
+    text-decoration: underline;
+}
+.book-house p{
+     text-align: justify;
+     padding: 1%;
+     line-height: 30px;
+     color: #394d6d;
 }
 
 /*css for footer*/
