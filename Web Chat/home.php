@@ -9,6 +9,7 @@ include 'dbh.php';
     <link rel="stylesheet" type="text/css" href="css/home.css">
 </head>
 <body>
+    <!---start main--->
     <div id="main">
       <h1 style="background-color:#6495ed; color:white;"><?php
         echo $_SESSION['uname']?>--Online</h1>
